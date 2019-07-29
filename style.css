@@ -106,7 +106,12 @@ img {
     font-weight: 900;
 
 }
-
+@media (min-width: 321px) and (max-width:768px){
+    .header__nav{
+        flex-flow: row;
+        justify-content: center;
+    }
+}
 .profile{
     display: flex;
     flex-flow: column;
@@ -135,7 +140,23 @@ img {
     font-weight: bolder;
     color: darkgray;
 }
+@media (min-width: 321px) and (max-width:768px){
+    .profile{
+        flex-flow:row;
+        width: 700px;
+        margin: 0 auto;
+    }
+    .profile__image{
+        width: 30vh;
+    }
+    .profile__comments{
+        order: -1;
+    }
+    .profile__text{
+        text-align: initial;
+    }
 
+}
 .portfolio{
     display: flex;
     flex-flow: column;
@@ -175,6 +196,13 @@ img {
     color:grey;
     text-align: center;
 }
+@media (min-width: 321px) and (max-width:768px){
+    .portfolio__container{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        grid-gap: 16px;
+    }
+}
 .contact{
     display: flex;
     flex-flow: column;
@@ -211,13 +239,19 @@ img {
     color:grey;
     font-weight: 900;
 }
+@media (min-width: 321px) and (max-width:768px){
+    .contact__text{
+        width: 600px;
+        margin: 0 auto;
+    }
+}
 .footer{
     padding: 0px 16px;
 }
 .footer__container{
     border-top: 1px solid lightgray;
 
-    padding: 8px 0;
+    padding: 24px 0;
 
     display: flex;
     justify-content: space-between;
@@ -230,4 +264,11 @@ img {
 .footer__links{
     text-transform: uppercase;
 }
-
+.footer__link{
+    padding-right: 16px;
+}
+@media (min-width: 321px) and (max-width:768px){
+    .footer__link:first-of-type{
+        display:none;
+    }
+}
