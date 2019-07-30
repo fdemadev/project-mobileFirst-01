@@ -194,7 +194,7 @@ html{
         margin: 0 auto;
     }
     .profile__image{
-        width: 20vh;
+        width: 80vh;
     }
     .profile__comments{
         order: -1;
