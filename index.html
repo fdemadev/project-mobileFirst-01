@@ -10,29 +10,27 @@
 </head>
 <body>
     <header class="header">
-        <div class="name__student">
-            <a href="#" class="student__link">Student Name</a>
+        <div class="header__container">
+            <div class="name__student">
+                <a href="#" class="student__link">Student Name</a>
+            </div>
+            <nav class="header__nav">
+                <a href="#profile" class="nav__item">HOME</a>
+                <a href="#portfolio" class="nav__item">PORTFOLIO</a>
+                <a href="#contact" class="nav__item">CONTACT</a>
+            </nav>
         </div>
-        <nav class="header__nav">
-            <a href="#profile" class="nav__item">HOME</a>
-            <a href="#portfolio" class="nav__item">PORTFOLIO</a>
-            <a href="#contact" class="nav__item">CONTACT</a>
-        </nav>
     </header>
     <section id="profile" class="profile">
         <div class="profile__container">
-        <div class="profile__images">
-            <img src="assets/images/responsive-layout-profile.png" alt="student" class="profile__image">
-        </div>
-        <div class="profile__comments">
-            <p class="profile__text">Hi! I'm a front-end developer who loves responsive design and css.I recently finished a degree in fron-end web development at Treehouse and am excited to put all my skills to use!</p>
-        </div>
+            <div class="profile__images"><img src="assets/images/responsive-layout-profile.png" alt="student" class="profile__image"></div>
+            <div class="profile__comments"><p class="profile__text">Hi! I'm a front-end developer who loves responsive design and css.I recently finished a degree in fron-end web development at Treehouse and am excited to put all my skills to use!</p></div>
         </div>
     </section>
     <section id="portfolio" class="portfolio">
         <h2 class="portfolio__title">Portfolio</h2>
         <div class="portfolio__container">
-            <div class="portfolio__services">
+            <article class="portfolio__services">
                 <div class="services__container">
                     <img src="assets/images/portfolio-1.png" alt="Services" class="services__images">
                 </div>
@@ -40,8 +38,8 @@
                     <h3 class="services__title">Marketing Page</h3>
                     <p class="services__except">This project shows the front page of a marketing website meant for a specific business I'm interested in.</p>
                 </div>
-            </div>
-            <div class="portfolio__services">
+            </article>
+            <article class="portfolio__services">
                 <div class="services__container">
                     <img src="assets/images/portfolio-2.png" alt="Services" class="services__images">
                 </div>
@@ -49,8 +47,8 @@
                     <h3 class="services__title">Search Page</h3>
                     <p class="services__except">This project searches through a speficic database to find information that the user is trying to look up.</p>
                 </div>
-            </div>
-            <div class="portfolio__services">
+            </article>
+            <article class="portfolio__services">
                 <div class="services__container">
                     <img src="assets/images/portfolio-3.png" alt="Services" class="services__images">
                 </div>
@@ -60,8 +58,8 @@
                         This project compares travel times based on different transportation methods and tells you the best one.
                     </p>
                 </div>
-            </div>
-            <div class="portfolio__services">
+            </article>
+            <article class="portfolio__services">
                 <div class="services__container">
                     <img src="assets/images/portfolio-4.png" alt="Services" class="services__images"></div>
                 <div class="services__text">
@@ -70,8 +68,8 @@
                         This project uses mapping apis to pilot points for my favourite sports in the city for a do-it-yourself walking tour.
                     </p>
                 </div>
-            </div>
-            <div class="portfolio__services">
+            </article>
+            <article class="portfolio__services">
                 <div class="services__container">
                     <img src="assets/images/portfolio-5.png" alt="Services" class="services__images">
                 </div>
@@ -81,8 +79,8 @@
                         This project shows pictures from a recent trip to the viewer and allows them to easily navigate through photos.
                     </p>
                 </div>
-            </div>
-            <div class="portfolio__services">
+            </article>
+            <article class="portfolio__services">
                 <div class="services__container">
                     <img src="assets/images/portfolio-6.png" alt="Services" class="services__images"></div>
                 <div class="services__text">
@@ -91,7 +89,7 @@
                         Someone can enter in the numbers they want, and press the big blue button and get the result.
                     </p>
                 </div>
-            </div>        
+            </article>        
         </div>
     </section>
     <section id="contact" class="contact">
