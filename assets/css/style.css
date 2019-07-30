@@ -140,13 +140,10 @@ html{
     flex-flow: column;
     justify-content: center;
     text-align: center;
+    color:darkgrey;
 }
 .contact__text{
     padding-bottom: 16px;
-    color: darkgrey;
-}
-.contact__phone, .contact__mail{
-    color:darkgrey;
 }
 .contact__phone a,.contact__mail a{
     margin-left: 8px;
@@ -183,6 +180,9 @@ html{
 
 /* TABLET */
 @media(min-width:768px){
+    .html{
+        font-size:18px;
+    }
     .header__nav{
         flex-flow: row;
         justify-content: center;
@@ -217,6 +217,9 @@ html{
 }
 /* DESKTOP */
 @media(min-width:1024px){
+    .html{
+        font-size:20px;
+    }
     .header__container{
         flex-flow: row;
         justify-content: space-between;
@@ -227,6 +230,7 @@ html{
     }
     .profile__comments{
         padding-right: 24px;
+        font-size:20px;
     }
     .profile__image{
         width: 80vh;
